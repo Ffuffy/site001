@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--beckg);
+}
+
+:root{
+    --texto:#fff;
+    --beckg:#23232e;
+}
+
+.img > img{
+   height: 55vh;
+   border-radius: 10px;
+   margin-left: 20px;
+   
+}
+
+#background{
+    background: var(--beckg);
+    display: flex;
+    color: var(--texto);
+    margin: 20px;
+    
+    
+}
+
+#background > .texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 300px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+
+main{
+    margin: 30px;
+    background: white;
+}
